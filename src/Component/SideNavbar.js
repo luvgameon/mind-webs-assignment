@@ -8,7 +8,7 @@ import {
   CDBSidebarMenuItem,
 } from 'cdbreact';
 import { NavLink } from 'react-router-dom';
-import pic from "./profile.jpeg"
+import pic from "../Component/assets/profile.jpeg"
 import Switch from '@mui/material/Switch';
 
 const SideNavbar = () => {
