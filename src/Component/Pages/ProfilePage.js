@@ -1,8 +1,6 @@
 import React from 'react'
 import SideNavbar from '../SideNavbar'
 
-import { Link } from 'react-router-dom'
-
 
 export default function ProfilePage() {
   return (
@@ -11,7 +9,7 @@ export default function ProfilePage() {
       <SideNavbar/>
       <div>
 
-      <h1>This is ProfilePage</h1>   <Link to='/'><button>Home</button></Link>
+      <h1>This is ProfilePage</h1>   <button>Home</button>
       </div>
       
     </div>

@@ -21,23 +21,36 @@ export default function RightSide() {
 
      <h3>Stories</h3> <h3>+</h3>
       </div>
-      <div style={{display:'flex',justifyContent:'space-between',borderBottom: '1px solid grey',paddingBottom:'50px'}}>
+      <div style={{display:'flex',justifyContent:'space-between',borderBottom: '1px solid grey',paddingBottom:'30px'}}>
+        <div style={{color:'grey'}}>
       <Stack direction="row" spacing={2} style={{ marginRight: "5px" }}>
                 <Avatar alt="Remy Sharp" src={pic1}  />
-              </Stack>{" "}
+              </Stack>{" "} Remo
+              </div>
+              <div style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:'center',color:'grey'}}>
+
               <Stack direction="row" spacing={2} style={{ marginRight: "5px" }}>
                 <Avatar alt="Remy Sharp" src={pic2}  />
-              </Stack>{" "}
+              </Stack>{" "} Max
+              </div>
+              <div style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:'center',color:'grey'}}>
               <Stack direction="row" spacing={2} style={{ marginRight: "5px" }}>
                 <Avatar alt="Remy Sharp" src={pic3}  />
           
-              </Stack>{" "}
+              </Stack>{" "} Joe
+              </div>
+              <div style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:'center',color:'grey'}}>
+
               <Stack direction="row" spacing={2} style={{ marginRight: "5px" }}>
                 <Avatar alt="Remy Sharp" src={pic4}  />
-              </Stack>{" "}
+              </Stack>{" "} Harry
+              </div>
+              <div style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:'center',color:'grey'}}>
+
               <Stack direction="row" spacing={2} style={{ marginRight: "5px" }}>
                 <Avatar alt="Remy Sharp" src={pic5}  />
-              </Stack>{" "}
+              </Stack>{" "} phenix
+              </div>
 
 
       </div>
