@@ -4,12 +4,12 @@ import ReactApexChart from 'react-apexcharts';
 const ApexChart = () => {
   const [series] = useState([
     {
-      name: 'Net Profit',
+      name: 'walking steps',
       data: [44, 55, 57, 56, 61, 58, 63, 60, 66, 74, 80, 95, 75, 99]
     },
     {
-      name: 'Revenue', 
-      data: [76, 85, 101, 98, 87, 105, 91, 114, 94, 67, 78, 98, 92, 99]
+      name: 'running steps', 
+      data: [76, 85, 101, 98, 87, 105, 91, 114, 94, 67, 78, 98, 92, 159]
     },
   ]);
 
@@ -42,7 +42,7 @@ const ApexChart = () => {
       }
     },
     fill: {
-      opacity: 1
+      opacity: 0.8
     },
     tooltip: {
       y: {
@@ -52,7 +52,7 @@ const ApexChart = () => {
       }
     },
     legend: {
-        show: false
+        show: true
       }
   });
 

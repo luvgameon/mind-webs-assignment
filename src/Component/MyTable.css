@@ -1,0 +1,19 @@
+.transparent-table {
+    background-color: transparent;
+    width: 800px;
+    height: auto;
+    border-color: 1px solid grey ;
+   
+    
+   
+  }
+  
+  .transparent-table th,
+  .transparent-table td {
+    background-color: transparent;
+    border-bottom:1px solid grey;
+    padding: 10px;
+
+    
+  }
+  
