@@ -5,7 +5,7 @@ import pic2 from "../Component/assets/1.jpeg";
 import pic3 from "../Component/assets/2.jpeg";
 import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
-import pic4 from "../Component/assets/3.jpeg"
+
 
 
 
@@ -57,19 +57,7 @@ const MyTable = () => {
           <td style={{color:'grey'}}></td>
           <td style={{color:'grey'}}>876 km</td>
         </tr>
-        <tr>
-          <td style={{color:'grey'}}>04</td>
-          <td>
-            <div style={{ display: "flex", alignItems: "center" }}>
-              <Stack direction="row" spacing={2} style={{ marginRight: "5px" }}>
-                <Avatar alt="Remy Sharp" src={pic4} />
-              </Stack>{" "}
-              Max
-            </div>
-          </td>
-          <td style={{color:'grey'}}></td>
-          <td style={{color:'grey'}}>876 km</td>
-        </tr>
+       
        
        
       </tbody>
