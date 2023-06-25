@@ -7,7 +7,7 @@ import {
   CDBSidebarMenu,
   CDBSidebarMenuItem,
 } from 'cdbreact';
-import { NavLink } from 'react-router-dom';
+import { NavLink,Link } from 'react-router-dom';
 import pic from "../Component/assets/profile.jpeg"
 import Switch from '@mui/material/Switch';
 
@@ -16,7 +16,7 @@ const SideNavbar = () => {
     <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}>
       <CDBSidebar textColor="#fff" backgroundColor="#333">
         <CDBSidebarHeader alignItems="center">
-          <img src={pic} alt='pic' style={{height:'50px',width:'50px',borderRadius:'6px',marginLeft:'40px'}}/>
+          <Link to='/profile'><img src={pic} alt='pic' style={{height:'50px',width:'50px',borderRadius:'6px',marginLeft:'40px'}}/></Link>
           {/* <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>
             Samantha
           </a> */}
@@ -29,13 +29,13 @@ const SideNavbar = () => {
             <NavLink exact to="/" activeClassName="active">
               <CDBSidebarMenuItem style={{color:'white',fontWeight:'1000'}}>Dashboard</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/tables" activeClassName="activeClicked">
+            <NavLink exact to="/" activeClassName="activeClicked">
               <CDBSidebarMenuItem >Activity</CDBSidebarMenuItem>
             </NavLink>
             <NavLink exact to="/profile" activeClassName="activeClicked">
               <CDBSidebarMenuItem >Challenge</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/analytics" activeClassName="activeClicked">
+            <NavLink exact to="/setting" activeClassName="activeClicked">
               <CDBSidebarMenuItem >Settings</CDBSidebarMenuItem>
             </NavLink>
 

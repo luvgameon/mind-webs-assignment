@@ -1,0 +1,11 @@
+.right{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: rgb(28, 27, 27);
+    color: aliceblue;
+    padding-left: 40px;
+    padding-right: 60px;
+    border-left: 0.4px solid grey;
+    
+  }

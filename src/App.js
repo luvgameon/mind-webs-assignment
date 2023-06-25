@@ -1,23 +1,29 @@
 
 import './App.css';
-import Mid from './Component/Mid';
 
+import Home from './Component/Pages/Home';
+import ProfilePage from './Component/Pages/ProfilePage';
 
-
-import SideNavbar from './Component/SideNavbar';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import Setting from './Component/Pages/Setting';
 
 
 function App() {
   return (
    <>
     <Router>
-      <div className="App" style={{display:'flex', height:'100vh'}}>
-   <SideNavbar/>
-   <Mid/>
-   
-   
-      </div>
+      <Routes>
+      <Route exact path='/profile' element={<ProfilePage/>}>
+
+          </Route>
+      <Route exact path='/setting' element={<Setting/>}>
+
+          </Route>
+      <Route exact path='/' element={<Home/>}>
+
+          </Route>
+      </Routes>
+      
     </Router>
    </>
   );
